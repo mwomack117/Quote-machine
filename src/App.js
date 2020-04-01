@@ -1,39 +1,54 @@
 import React, { Component } from "react";
 import "./App.css";
 
+import QuoteBox from "./components/QuoteBox";
+
+// import { API, headers } from "./utils/api";
+
+import { dummy_data } from "./utils/dummy-data";
+
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     this.state = {
-      quotes: []
+      results: dummy_data,
+      current: {}
     };
   }
 
-  componentDidMount() {
-    fetch(
-      "https://andruxnet-random-famous-quotes.p.rapidapi.com/?cat=famous&count=10",
-      {
-        method: "GET",
-        headers: {
-          "x-rapidapi-host": "andruxnet-random-famous-quotes.p.rapidapi.com",
-          "x-rapidapi-key": process.env.REACT_APP_API_KEY
-        }
-      }
-    )
-      .then(response => response.json())
-      .then(responseData => {
-        this.setState({ quotes: responseData });
-      })
-      .catch(error => this.setState({ error }));
-  }
+  getQuote = () => {
+    const { results } = this.state;
+
+    this.setState({
+      current: results[Math.floor(Math.random() * results.length)]
+    });
+  };
+
+  // componentWillMount() {
+  //   this.setState({ results: dummy_data });
+
+  //   fetch(API, headers)
+  //     .then(response => response.json())
+  //     .then(responseData => {
+  //       console.log(responseData);
+  //       // this.setState({ results: responseData });
+  //     })
+  //     .catch(error => this.setState({ error }));
+  // }
 
   render() {
     return (
       <div className="App">
-        {console.log(this.state.quotes)}
-        {console.log(process.env.REACT_APP_API_KEY)}
-        <header className="App-header"></header>
+        <QuoteBox
+          // results={this.state.results}
+          onClick={this.getQuote}
+          current={
+            this.state.results[
+              Math.floor(Math.random() * this.state.results.length)
+            ]
+          }
+        />
       </div>
     );
   }
