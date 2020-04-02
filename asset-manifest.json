@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Quote-machine/static/css/main.33d1abdd.chunk.css",
+    "main.js": "/Quote-machine/static/js/main.e29d28dd.chunk.js",
+    "main.js.map": "/Quote-machine/static/js/main.e29d28dd.chunk.js.map",
+    "runtime-main.js": "/Quote-machine/static/js/runtime-main.868e0e8d.js",
+    "runtime-main.js.map": "/Quote-machine/static/js/runtime-main.868e0e8d.js.map",
+    "static/js/2.8800fef6.chunk.js": "/Quote-machine/static/js/2.8800fef6.chunk.js",
+    "static/js/2.8800fef6.chunk.js.map": "/Quote-machine/static/js/2.8800fef6.chunk.js.map",
+    "index.html": "/Quote-machine/index.html",
+    "precache-manifest.e2c748e9a287fed993a5dd69582e1d3b.js": "/Quote-machine/precache-manifest.e2c748e9a287fed993a5dd69582e1d3b.js",
+    "service-worker.js": "/Quote-machine/service-worker.js",
+    "static/css/main.33d1abdd.chunk.css.map": "/Quote-machine/static/css/main.33d1abdd.chunk.css.map",
+    "static/js/2.8800fef6.chunk.js.LICENSE.txt": "/Quote-machine/static/js/2.8800fef6.chunk.js.LICENSE.txt",
+    "static/media/iconfinder_twitter_112776.svg": "/Quote-machine/static/media/iconfinder_twitter_112776.9efbc038.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.868e0e8d.js",
+    "static/js/2.8800fef6.chunk.js",
+    "static/css/main.33d1abdd.chunk.css",
+    "static/js/main.e29d28dd.chunk.js"
+  ]
+}
