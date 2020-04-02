@@ -6,6 +6,11 @@
   color: bisque;
 }
 
+#text,
+#author {
+  transition: 1s ease-out;
+}
+
 #text {
   text-align: center;
   font-size: 2em;

@@ -7,7 +7,21 @@ import QuoteBox from "./components/QuoteBox";
 
 import { dummy_data } from "./utils/dummy-data";
 
-const randomColors = ["green", "purple", "blue", "teal"];
+const randomColors = [
+  "#D61B77",
+  "#E8262B",
+  "#4729A1",
+  "#7F69C2",
+  "#EABD26",
+  "#96D824",
+  "#216396",
+  "#8866C1",
+  "#EA8226",
+  "grey",
+  "orange",
+  "green",
+  "goldenrod"
+];
 
 class App extends Component {
   constructor(props) {
@@ -37,14 +51,15 @@ class App extends Component {
     return (document.body.style.backgroundColor = this.state.themeColor);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.getQuote();
 
+    // this fetch works, but api not free. -> dummy-data file//
     // fetch(API, headers)
     //   .then(response => response.json())
     //   .then(responseData => {
     //     console.log(responseData);
-    //     // this.setState({ results: responseData });
+    //     this.setState({ results: responseData }, this.getQuote);
     //   })
     //   .catch(error => this.setState({ error }));
   }
