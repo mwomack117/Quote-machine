@@ -25,28 +25,27 @@ class App extends Component {
     });
   };
 
-  // componentWillMount() {
-  //   this.setState({ results: dummy_data });
-
-  //   fetch(API, headers)
-  //     .then(response => response.json())
-  //     .then(responseData => {
-  //       console.log(responseData);
-  //       // this.setState({ results: responseData });
-  //     })
-  //     .catch(error => this.setState({ error }));
-  // }
+  componentWillMount() {
+    this.getQuote();
+    // fetch(API, headers)
+    //   .then(response => response.json())
+    //   .then(responseData => {
+    //     console.log(responseData);
+    //     // this.setState({ results: responseData });
+    //   })
+    //   .catch(error => this.setState({ error }));
+  }
 
   render() {
     return (
       <div className="App">
         <QuoteBox
-          // results={this.state.results}
           onClick={this.getQuote}
           current={
-            this.state.results[
-              Math.floor(Math.random() * this.state.results.length)
-            ]
+            this.state.current
+            // this.state.results[
+            //   Math.floor(Math.random() * this.state.results.length)
+            // ]
           }
         />
       </div>
