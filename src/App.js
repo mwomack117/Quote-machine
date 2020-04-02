@@ -7,26 +7,39 @@ import QuoteBox from "./components/QuoteBox";
 
 import { dummy_data } from "./utils/dummy-data";
 
+const randomColors = ["green", "purple", "blue", "teal"];
+
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       results: dummy_data,
-      current: {}
+      current: {},
+      themeColor: "red"
     };
   }
 
   getQuote = () => {
     const { results } = this.state;
 
-    this.setState({
-      current: results[Math.floor(Math.random() * results.length)]
-    });
+    this.setState(
+      {
+        current: results[Math.floor(Math.random() * results.length)],
+        themeColor:
+          randomColors[Math.floor(Math.random() * randomColors.length)]
+      },
+      this.changeBody
+    );
   };
+
+  changeBody() {
+    return (document.body.style.backgroundColor = this.state.themeColor);
+  }
 
   componentWillMount() {
     this.getQuote();
+
     // fetch(API, headers)
     //   .then(response => response.json())
     //   .then(responseData => {
@@ -41,12 +54,8 @@ class App extends Component {
       <div className="App">
         <QuoteBox
           onClick={this.getQuote}
-          current={
-            this.state.current
-            // this.state.results[
-            //   Math.floor(Math.random() * this.state.results.length)
-            // ]
-          }
+          current={this.state.current}
+          themeColor={this.state.themeColor}
         />
       </div>
     );
