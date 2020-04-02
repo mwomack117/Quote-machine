@@ -67,6 +67,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1 id="title">Quote Machine</h1>
         <QuoteBox
           onClick={this.getQuote}
           current={this.state.current}

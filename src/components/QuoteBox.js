@@ -32,6 +32,7 @@ function QuoteBox(props) {
         >
           <img src={twitterLogo} alt="twitter-bird-icon" />
         </a>
+
         <button
           id="new-quote"
           onClick={props.onClick}
