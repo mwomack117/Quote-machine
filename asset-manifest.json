@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Quote-machine/static/css/main.33d1abdd.chunk.css",
-    "main.js": "/Quote-machine/static/js/main.e29d28dd.chunk.js",
-    "main.js.map": "/Quote-machine/static/js/main.e29d28dd.chunk.js.map",
-    "runtime-main.js": "/Quote-machine/static/js/runtime-main.868e0e8d.js",
-    "runtime-main.js.map": "/Quote-machine/static/js/runtime-main.868e0e8d.js.map",
-    "static/js/2.8800fef6.chunk.js": "/Quote-machine/static/js/2.8800fef6.chunk.js",
-    "static/js/2.8800fef6.chunk.js.map": "/Quote-machine/static/js/2.8800fef6.chunk.js.map",
-    "index.html": "/Quote-machine/index.html",
-    "precache-manifest.e2c748e9a287fed993a5dd69582e1d3b.js": "/Quote-machine/precache-manifest.e2c748e9a287fed993a5dd69582e1d3b.js",
-    "service-worker.js": "/Quote-machine/service-worker.js",
-    "static/css/main.33d1abdd.chunk.css.map": "/Quote-machine/static/css/main.33d1abdd.chunk.css.map",
-    "static/js/2.8800fef6.chunk.js.LICENSE.txt": "/Quote-machine/static/js/2.8800fef6.chunk.js.LICENSE.txt",
-    "static/media/iconfinder_twitter_112776.svg": "/Quote-machine/static/media/iconfinder_twitter_112776.9efbc038.svg"
+    "main.css": "/React-Quote-Machine/static/css/main.33d1abdd.chunk.css",
+    "main.js": "/React-Quote-Machine/static/js/main.99edcf55.chunk.js",
+    "main.js.map": "/React-Quote-Machine/static/js/main.99edcf55.chunk.js.map",
+    "runtime-main.js": "/React-Quote-Machine/static/js/runtime-main.33caf395.js",
+    "runtime-main.js.map": "/React-Quote-Machine/static/js/runtime-main.33caf395.js.map",
+    "static/js/2.8800fef6.chunk.js": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js",
+    "static/js/2.8800fef6.chunk.js.map": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.map",
+    "index.html": "/React-Quote-Machine/index.html",
+    "precache-manifest.9bbb93d137715f7fef1cb1523dbd015a.js": "/React-Quote-Machine/precache-manifest.9bbb93d137715f7fef1cb1523dbd015a.js",
+    "service-worker.js": "/React-Quote-Machine/service-worker.js",
+    "static/css/main.33d1abdd.chunk.css.map": "/React-Quote-Machine/static/css/main.33d1abdd.chunk.css.map",
+    "static/js/2.8800fef6.chunk.js.LICENSE.txt": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.LICENSE.txt",
+    "static/media/iconfinder_twitter_112776.svg": "/React-Quote-Machine/static/media/iconfinder_twitter_112776.9efbc038.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.868e0e8d.js",
+    "static/js/runtime-main.33caf395.js",
     "static/js/2.8800fef6.chunk.js",
     "static/css/main.33d1abdd.chunk.css",
-    "static/js/main.e29d28dd.chunk.js"
+    "static/js/main.99edcf55.chunk.js"
   ]
 }
