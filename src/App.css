@@ -67,3 +67,36 @@ button {
 button:hover {
   opacity: 0.9;
 }
+
+@media screen and (max-width: 501px) {
+  #quote-box {
+    width: 225px;
+    padding: 30px;
+  }
+
+  #text {
+    font-size: 1.5em;
+  }
+
+  #author {
+    font-size: 0.85em;
+  }
+
+  .buttons {
+    margin-top: 35px;
+  }
+
+  #tweet-quote {
+    width: 35px;
+    height: 35px;
+  }
+
+  #tweet-quote img {
+    height: 1.25em;
+    width: 1.25em;
+  }
+
+  button {
+    height: 35px;
+  }
+}
