@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-Quote-Machine/static/css/main.4175292d.chunk.css",
-    "main.js": "/React-Quote-Machine/static/js/main.99edcf55.chunk.js",
-    "main.js.map": "/React-Quote-Machine/static/js/main.99edcf55.chunk.js.map",
+    "main.js": "/React-Quote-Machine/static/js/main.029683dd.chunk.js",
+    "main.js.map": "/React-Quote-Machine/static/js/main.029683dd.chunk.js.map",
     "runtime-main.js": "/React-Quote-Machine/static/js/runtime-main.33caf395.js",
     "runtime-main.js.map": "/React-Quote-Machine/static/js/runtime-main.33caf395.js.map",
     "static/js/2.8800fef6.chunk.js": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js",
     "static/js/2.8800fef6.chunk.js.map": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.map",
     "index.html": "/React-Quote-Machine/index.html",
-    "precache-manifest.53c852d7f43ffe0687898293f6ca2357.js": "/React-Quote-Machine/precache-manifest.53c852d7f43ffe0687898293f6ca2357.js",
+    "precache-manifest.4fd130e264193cdb14ed8703328dcdf0.js": "/React-Quote-Machine/precache-manifest.4fd130e264193cdb14ed8703328dcdf0.js",
     "service-worker.js": "/React-Quote-Machine/service-worker.js",
     "static/css/main.4175292d.chunk.css.map": "/React-Quote-Machine/static/css/main.4175292d.chunk.css.map",
     "static/js/2.8800fef6.chunk.js.LICENSE.txt": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.33caf395.js",
     "static/js/2.8800fef6.chunk.js",
     "static/css/main.4175292d.chunk.css",
-    "static/js/main.99edcf55.chunk.js"
+    "static/js/main.029683dd.chunk.js"
   ]
 }
