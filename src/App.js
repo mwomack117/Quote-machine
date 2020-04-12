@@ -20,7 +20,7 @@ const randomColors = [
   "grey",
   "orange",
   "green",
-  "goldenrod"
+  "goldenrod",
 ];
 
 class App extends Component {
@@ -30,7 +30,7 @@ class App extends Component {
     this.state = {
       results: dummy_data,
       current: {},
-      themeColor: "red"
+      themeColor: "red",
     };
   }
 
@@ -41,7 +41,7 @@ class App extends Component {
       {
         current: results[Math.floor(Math.random() * results.length)],
         themeColor:
-          randomColors[Math.floor(Math.random() * randomColors.length)]
+          randomColors[Math.floor(Math.random() * randomColors.length)],
       },
       this.changeBody
     );
@@ -67,7 +67,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 id="title">Quote Machine</h1>
+        <h1 id="title">Random Quote Machine</h1>
         <QuoteBox
           onClick={this.getQuote}
           current={this.state.current}
