@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Quote-Machine/static/css/main.4b94f168.chunk.css",
+    "main.css": "/React-Quote-Machine/static/css/main.c4aedb5e.chunk.css",
     "main.js": "/React-Quote-Machine/static/js/main.f58f7382.chunk.js",
     "main.js.map": "/React-Quote-Machine/static/js/main.f58f7382.chunk.js.map",
     "runtime-main.js": "/React-Quote-Machine/static/js/runtime-main.33caf395.js",
@@ -8,16 +8,16 @@
     "static/js/2.8800fef6.chunk.js": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js",
     "static/js/2.8800fef6.chunk.js.map": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.map",
     "index.html": "/React-Quote-Machine/index.html",
-    "precache-manifest.2ff2639ce4a9c251a2e14da827a5c451.js": "/React-Quote-Machine/precache-manifest.2ff2639ce4a9c251a2e14da827a5c451.js",
+    "precache-manifest.2b5605cd3b35ecbbd89cc83562b39a49.js": "/React-Quote-Machine/precache-manifest.2b5605cd3b35ecbbd89cc83562b39a49.js",
     "service-worker.js": "/React-Quote-Machine/service-worker.js",
-    "static/css/main.4b94f168.chunk.css.map": "/React-Quote-Machine/static/css/main.4b94f168.chunk.css.map",
+    "static/css/main.c4aedb5e.chunk.css.map": "/React-Quote-Machine/static/css/main.c4aedb5e.chunk.css.map",
     "static/js/2.8800fef6.chunk.js.LICENSE.txt": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.LICENSE.txt",
     "static/media/iconfinder_twitter_112776.svg": "/React-Quote-Machine/static/media/iconfinder_twitter_112776.9efbc038.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.33caf395.js",
     "static/js/2.8800fef6.chunk.js",
-    "static/css/main.4b94f168.chunk.css",
+    "static/css/main.c4aedb5e.chunk.css",
     "static/js/main.f58f7382.chunk.js"
   ]
 }
