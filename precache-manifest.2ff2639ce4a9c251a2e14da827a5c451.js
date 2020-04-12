@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c45e10bd5f202340058df4330de028c7",
+    "revision": "d29b27961e97f576a9d0370977c3e3ee",
     "url": "/React-Quote-Machine/index.html"
   },
   {
-    "revision": "9fddc7da9e3fd8b48fb8",
-    "url": "/React-Quote-Machine/static/css/main.4175292d.chunk.css"
+    "revision": "fe614895c679ad8703fe",
+    "url": "/React-Quote-Machine/static/css/main.4b94f168.chunk.css"
   },
   {
     "revision": "bd1b26a4ff28f5094686",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-Quote-Machine/static/js/2.8800fef6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fddc7da9e3fd8b48fb8",
-    "url": "/React-Quote-Machine/static/js/main.029683dd.chunk.js"
+    "revision": "fe614895c679ad8703fe",
+    "url": "/React-Quote-Machine/static/js/main.f58f7382.chunk.js"
   },
   {
     "revision": "5d8cf0c881406b795c4a",
